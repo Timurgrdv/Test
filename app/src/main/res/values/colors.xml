@@ -8,4 +8,9 @@
     <color name="color_textWhite">#FFFFFF</color>
     <color name="color_Cl_Btn">#303F9F</color>
     <color name="color_textBtn">#A1C4E2</color>
+    <color name="color_cub_border_color">#a1c4e2</color>
+    <color name="cub_color">#254d71"</color>
+    <color name="cub_hover_color">#447097</color>
+
+
 </resources>
