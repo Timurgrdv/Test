@@ -91,6 +91,8 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
                                 Intent intent = new Intent(getApplicationContext(), Welcome.class);
                                 intent.putExtra("pin", getInputPin());
                                 startActivity(intent);
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Incorrect Pin! Try again!", Toast.LENGTH_SHORT).show();
                             }
                             return true;
                         }
